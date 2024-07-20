@@ -42,4 +42,16 @@ class TinController extends Controller
 
     }
 
+    function timkiem(){
+
+            $dataSearch = DB::table('tin')
+            ->where('title', 'like','%'.$_POST['keySearch'].'%')
+            ->where('content', 'like', '%'.$_POST['keySearch'].'%')
+            ->get();
+
+
+        return view('layout.client.home.timkiem', compact('dataSearch'));
+
+    }
+
 }

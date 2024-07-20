@@ -22,8 +22,8 @@ class AppServiceProvider extends ServiceProvider
     {
         $dm = DB::table('loai_tin')
         ->get();
-
         
+
 
         view()->share('dm', $dm);
         // dd($dm);

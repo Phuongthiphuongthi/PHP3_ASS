@@ -23,3 +23,6 @@ Route::get('/', [TinController::class, 'index'])->name('home');
 
 Route::get('/tintrongloai/{id}', [TinController::class, 'tintrongloai'])->name('tintrongloai');
 Route::get('/chitiet/{id}', [TinController::class, 'chitiet'])->name('chitiet');
+
+Route::match(['get','post'],'/timkiem', [TinController::class, 'timkiem'])->name('timkiem');
+

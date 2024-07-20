@@ -78,7 +78,7 @@
             </select>
 
             <!-- search -->
-            <form class="search-bar" method="post">
+            <form class="search-bar" method="post" action="{{ route('timkiem') }}">
                 @csrf
                 <input id="search-query" name="keySearch" type="search" placeholder="Type &amp; Hit Enter...">
 

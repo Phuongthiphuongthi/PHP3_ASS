@@ -13,6 +13,6 @@
 
 
     {{-- Recent Post --}}
-    @include('layout.client.home.recent-post')
+    {{-- @include('layout.client.home.recent-post') --}}
     <!-- end of Recent Post -->
 @endsection
