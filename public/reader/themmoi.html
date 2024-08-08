@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thêm mới sản phẩm</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body style="background-color: #f8f9fa;">
+    <div class="container">
+        <h2 class="text-center" style="margin-top: 20px; margin-bottom: 30px;">Thêm mới sản phẩm</h2>
+        <form>
+            <div class="row">
+                <div class="col-md-6">
+                    <h4 style="margin-bottom: 20px;">Khách hàng</h4>
+                    <div class="form-group">
+                        <label for="khachHangTen" style="font-weight: bold;">Tên</label>
+                        <input type="text" class="form-control" id="khachHangTen" style="border-radius: 5px; border: 1px solid #ced4da;">
+                    </div>
+                    <div class="form-group">
+                        <label for="khachHangDiaChi" style="font-weight: bold;">Địa chỉ</label>
+                        <input type="text" class="form-control" id="khachHangDiaChi" style="border-radius: 5px; border: 1px solid #ced4da;">
+                    </div>
+                    <div class="form-group">
+                        <label for="khachHangSDT" style="font-weight: bold;">SĐT</label>
+                        <input type="text" class="form-control" id="khachHangSDT" style="border-radius: 5px; border: 1px solid #ced4da;">
+                    </div>
+                    <div class="form-group">
+                        <label for="khachHangEmail" style="font-weight: bold;">Email</label>
+                        <input type="email" class="form-control" id="khachHangEmail" style="border-radius: 5px; border: 1px solid #ced4da;">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h4 style="margin-bottom: 20px;">Nhà cung cấp</h4>
+                    <div class="form-group">
+                        <label for="nhaCungCapTen" style="font-weight: bold;">Tên</label>
+                        <input type="text" class="form-control" id="nhaCungCapTen" style="border-radius: 5px; border: 1px solid #ced4da;">
+                    </div>
+                    <div class="form-group">
+                        <label for="nhaCungCapDiaChi" style="font-weight: bold;">Địa chỉ</label>
+                        <input type="text" class="form-control" id="nhaCungCapDiaChi" style="border-radius: 5px; border: 1px solid #ced4da;">
+                    </div>
+                    <div class="form-group">
+                        <label for="nhaCungCapSDT" style="font-weight: bold;">SĐT</label>
+                        <input type="text" class="form-control" id="nhaCungCapSDT" style="border-radius: 5px; border: 1px solid #ced4da;">
+                    </div>
+                    <div class="form-group">
+                        <label for="nhaCungCapEmail" style="font-weight: bold;">Email</label>
+                        <input type="email" class="form-control" id="nhaCungCapEmail" style="border-radius: 5px; border: 1px solid #ced4da;">
+                    </div>
+                </div>
+            </div>
+            <h4 style="margin-bottom: 20px;">Sản phẩm</h4>
+            <table class="table" style="border: none;">
+                <thead>
+                    <tr style="border: none;">
+                        <th>Name</th>
+                        <th>Image</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                        <th>Stock Qty</th>
+                        <th>Qty</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style="border: none;">
+                        <td><input type="text" class="form-control" style="border-radius: 5px; border: 1px solid #ced4da;"></td>
+                        <td><input type="file" class="form-control-file" style="border: none;"></td>
+                        <td><input type="text" class="form-control" style="border-radius: 5px; border: 1px solid #ced4da;"></td>
+                        <td><input type="number" class="form-control" style="border-radius: 5px; border: 1px solid #ced4da;"></td>
+                        <td><input type="number" class="form-control" style="border-radius: 5px; border: 1px solid #ced4da;"></td>
+                        <td><input type="number" class="form-control" style="border-radius: 5px; border: 1px solid #ced4da;"></td>
+                    </tr>
+                    <tr style="border: none;">
+                        <td><input type="text" class="form-control" style="border-radius: 5px; border: 1px solid #ced4da;"></td>
+                        <td><input type="file" class="form-control-file" style="border: none;"></td>
+                        <td><input type="text" class="form-control" style="border-radius: 5px; border: 1px solid #ced4da;"></td>
+                        <td><input type="number" class="form-control" style="border-radius: 5px; border: 1px solid #ced4da;"></td>
+                        <td><input type="number" class="form-control" style="border-radius: 5px; border: 1px solid #ced4da;"></td>
+                        <td><input type="number" class="form-control" style="border-radius: 5px; border: 1px solid #ced4da;"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <button type="submit" class="btn btn-primary btn-block" style="width: 100%; background-color: #007bff; border: none; padding: 10px; font-size: 16px; font-weight: bold;">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
